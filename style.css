@@ -5,13 +5,18 @@ body{
 h1{
     font-size: 50px;
 }
+.the-head{
+    text-shadow: 2px 2px;
+}
 .curse{
     color: rgb(124, 16, 124);
+    text-shadow: 2px 2px 4px #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
 }
 .small{
     font-size: 30px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #a90ad1;
 }
 section{
     display: flex;
@@ -21,23 +26,44 @@ section{
     padding: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 p{
     text-align: justify;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(179, 66, 231), tomato);
+    background-image: linear-gradient(rgb(132, 37, 177), rgb(151, 40, 20));
     padding: 10px;
-    color: white;
+    color: lightsalmon;
     font-weight: 700;
     font-size: small;
     border-radius: 5px;
 
 }
 .top-banner{
-    background-image: url(images/gggojo-bg\ -\ Copy.jpg);
+    background-image: url(images/gojo-bg.jpg);
     height: 100%;
     background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.next-banner{
+    display: flex;
+}
+.next-width{
+    width:50%;
+    padding: 5%;
+}
+.next-width img{
+    width: 100%;
+}
+.next-h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.next-p{
+    text-align: justify;
+
 }
