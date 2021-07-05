@@ -18,7 +18,7 @@ h1{
     font-size: 30px;
     text-shadow: 0 0 3px #000000, 0 0 5px #a90ad1;
 }
-section{
+.flexiable-container{
     display: flex;
 }
 .half-width{
@@ -66,4 +66,47 @@ p{
 .next-p{
     text-align: justify;
 
+}
+.last-one{
+    background-image: url(images/last.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: cover;
+    padding: 10px;
+    width:30%;
+    
+    
+    
+}
+.last-second{ 
+    background-image: url(images/last.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: cover;
+    padding: 10px;
+    width: 30%;
+    
+
+}
+.last-div{
+    padding: 10px;
+
+}
+.gojo-kaka{
+    box-shadow: 7px 5px 5px black;
+}
+.gojo-caca{
+    box-shadow: -5px 7px 5px black;
+}
+.boxing{
+    box-shadow: 10px 5px 5px black;
+    margin-left: 2%;
+    margin-right: 2%;
+   margin-inline: 10%;
+}
+.finish{
+    color: rgb(15, 155, 143);
+    text-shadow: 2px 2px 4px #000000;
 }
